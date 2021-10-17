@@ -1,0 +1,13 @@
+POST http://localhost:3000/livro HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Vidas secas",
+  "autor": {
+    "name": "Graciliano Ramos"
+  }
+}
+
+###
+GET http://localhost:3000/livro HTTP/1.1
+content-type: application/json
